@@ -1,2 +1,2 @@
 # HR_analytics
- Analysis of employee attrition rate
+ Report of employee attrition rate and it's relation with other variables
