@@ -115,29 +115,6 @@ data1.columns
 data1.head()
 
 
-# In[ ]:
-
-
-
-
-
-# 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[17]:
-
-
 # Get dummy columns for 'Attrition', 'BusinessTravel', 'Department', 'EducationField','Gender','JobRole',
 #'MaritalStatus'
 data1=pd.get_dummies(data1, columns = ['BusinessTravel', 'Department', 'EducationField','Gender','JobRole','MaritalStatus'])
@@ -347,27 +324,6 @@ ConfusionMatrixDisplay(cm).plot()
 
 accuracy=((728+12)/(728+12+12+130))*100
 print(accuracy)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
